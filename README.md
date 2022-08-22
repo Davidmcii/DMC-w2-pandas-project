@@ -16,18 +16,31 @@ El resultado es una base de datos con 25723 filas iniciales y que se han elimina
  ### Filas
 
  Las filas donde se han estandarizado el dato para facilitar el análisis son:
+ 
  Case_number: Se han numero de más antoguo a más moderno. 
+ 
  date: se ha incluido en la lista las filas que contenían día, mes y año. Se ha dejado en formato fecha.
+ 
  Year: se ha puesto el mismo año que en la fecha, dejandolo en formato int. 
+ 
  type: se ha simplificado en 7 posibilidades
+ 
  Country: Se ha comparado cada país de la lista con el nombre oficial de cada pais y se han arregla los que contenían discrepancias. 
+ 
  activity: Se ha categorizado las diferentes actividades que se realizaban mientras se ha sufrido un ataque de tiburones y se ha filtrado según este criterio. 
+ 
  Name: Se ha simplificado el nombre del atacado a 1 persona.
+ 
  Age: En los casos que había una edad específica se ha dejado, en el resto de casos se ha eliminado. 
+ 
  Injury: Se ha simplificado las heridas recibidas a una serie de 17 tipos diferentes. En los casos en los que el ataque fue  mortal según la columna "fatal" y no había información según esta categoría, se ha actualizado. 
+ 
  Fatal: Se ha eliminado los errores y se ha dejado en SI/NO. 
+ 
  Time: En caso de que estuviese la hora y min del ataque, se ha dejado. En caso contrario se ha eliminado de la lista. 
+ 
  Species: Se ha filtrado la información contrastandola con una lista de nombres de tiburones no extistos para ver cuantas de estas filas contenían a esos tiburones. 
+ 
  Resto de filas: Se han eliminado los datos vacíos dandole consistencia con restecto al tipo de datos que alberga cada columna.  
 
 
